@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { NativeModules, requireNativeComponent, UIManager, findNodeHandle } from "react-native";
+import { NativeModules, requireNativeComponent, UIManager, findNodeHandle, Platform } from "react-native";
 
 const { RNEmarsysInAppWrapper } = NativeModules;
 
